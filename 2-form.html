@@ -7,14 +7,28 @@
     <title>Form</title>
     <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-C1BY744s.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-BSKU7T0Q.css">
   </head>
   <body>
     <main>
       <div class="container">
-        <h1 class="main-title">Form</h1>
         <a class="back-link" href="./index.html">Go back</a>
 
+        <form class="form">
+          <p class="input-title">Email</p>
+          <label for="email-to-send-msg" class="form-label">
+            <input
+              type="email"
+              class="form-input email-input"
+              name="email-to-send-msg"
+            />
+          </label>
+          <p class="input-title">Message</p>
+          <label for="form-msg" class="form-msg">
+            <input type="text" class="form-input msg-input" name="form-msg" />
+          </label>
+          <button type="submit" class="send-form">Submit</button>
+        </form>
       </div>
     </main>
   </body>
