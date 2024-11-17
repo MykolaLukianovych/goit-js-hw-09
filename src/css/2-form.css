@@ -1,1 +1,41 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
 
+.container {
+  width: 408px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  align-items: start;
+  gap: 8px;
+}
+
+.send-form {
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 8px 16px;
+  color: #ffffff;
+}
+
+.form-input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.msg-input {
+  height: 80px;
+}
