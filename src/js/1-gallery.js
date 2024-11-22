@@ -85,3 +85,18 @@ function createGallery(arr) {
 </li>
     `).join("")
 }
+
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
+
+let galleryModal = new SimpleLightbox('.gallery a', {
+  captions: true,
+  captionsData: 'alt',
+  captionDelay: 250,
+});
+
+galleryModal.on('show.simplelightbox', function () {
+});
+
+
+
